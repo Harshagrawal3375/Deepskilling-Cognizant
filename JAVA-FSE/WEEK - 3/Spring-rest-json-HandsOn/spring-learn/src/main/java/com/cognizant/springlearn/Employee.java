@@ -21,4 +21,9 @@ public class Employee {
 
     public Skill getSkill() { return skill; }
     public void setSkill(Skill skill) { this.skill = skill; }
+
+    @Override
+    public String toString() {
+        return "Employee [id=" + id + ", name=" + name + ", department=" + department + ", skill=" + skill + "]";
+    }
 }

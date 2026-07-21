@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class EcommerceSearch {
 
     // 1. Linear Search: Checks every element one by one
